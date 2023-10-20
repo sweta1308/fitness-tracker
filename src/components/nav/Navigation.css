@@ -1,0 +1,19 @@
+.nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 10px;
+  padding-left: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(145, 102, 185);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}

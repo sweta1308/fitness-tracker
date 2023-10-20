@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  list-style: none;
+  padding: 5px 0 20px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+p {
+  margin-top: -5px;
+}
+
+.modal {
+  background-color: white;
+  padding: 10px 20px 20px;
+  border-radius: 10px;
+}
+
+.modal div {
+  margin: 10px 0;
+}
+
+.modal button {
+  margin-left: 10px;
+}
+
+.modal div input {
+  width: 93%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.modal div select {
+  width: 99%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+  padding: 7px 15px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: rgb(63, 61, 61);
+  color: white;
+}
